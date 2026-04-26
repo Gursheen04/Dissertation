@@ -50,7 +50,7 @@ val Greeting: State = state (Parent) {
 
     //User agrees to describe the picture
     onResponse<Yes> {
-        furhat.say("Great! Please begin describing the picture.")
+        furhat.say("Great!")
         goto(Description)
     }
 
