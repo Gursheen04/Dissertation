@@ -16,6 +16,7 @@ val Init: State = state {
         users.setSimpleEngagementPolicy(DISTANCE_TO_ENGAGE, MAX_NUMBER_OF_USERS)
 
         /** set character parameters */
+        furhat.mask = "dog"
         furhat.voice = Voice(name = "Matthew")
         furhat.character = "Alex"
 
